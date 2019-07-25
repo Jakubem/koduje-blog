@@ -11,6 +11,11 @@
 * {
   box-sizing: border-box;
 }
+
+.svg-wrapper {
+  width: 100px;
+}
+
 html,
 body {
   padding: 0;
@@ -120,7 +125,9 @@ pre {
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
+  max-width: 150px;
 }
+
 .home :link:not(:hover) {
   text-decoration: none;
 }
