@@ -1,10 +1,9 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Strona o nas
 tags:
   - nav
-navtitle: About
+navtitle: O nas
 templateClass: tmpl-post
 ---
 
-I am a person that writes stuff.

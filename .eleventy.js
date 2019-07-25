@@ -29,6 +29,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+  eleventyConfig.addCollection("authorList", require("./_11ty/getAuthorList"));
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");

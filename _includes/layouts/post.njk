@@ -3,6 +3,12 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
+{%- if author -%}
+  published by: <a href="/authors/{{ author | url }}">{{ author }}</a> <br>
+{%- endif -%}
+{%- if date -%}
+  <time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+{%- endif -%}
 
 {{ content | safe }}
 

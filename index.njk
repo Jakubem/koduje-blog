@@ -2,12 +2,10 @@
 layout: layouts/home.njk
 tags:
   - nav
-navtitle: Home
+navtitle: Strona główna
 ---
 
-<h1>Latest 3 Posts</h1>
+<h1>To jest strona główna</h1>
+i tu będzie można zaszaleć <br>
 
-{% set postslist = collections.posts | head(-3) %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<video src="https://media.giphy.com/media/W8krmZSDxPIfm/giphy.mp4" autoplay loop></video>
