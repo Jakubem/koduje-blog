@@ -21,12 +21,12 @@
       </ul>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 
     <footer></footer>
-
+    <script src="/js/main.js"></script>
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>

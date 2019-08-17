@@ -12,8 +12,20 @@
   box-sizing: border-box;
 }
 
+.btn-hidden {
+  display: none;
+}
+
+.result-list {
+  list-style: none;
+}
+
 .svg-wrapper {
   width: 100px;
+}
+
+html {
+  background-color: var(--blue);
 }
 
 html,
@@ -21,8 +33,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  color: var(--white);
 }
 p:last-child {
   margin-bottom: 0;
@@ -37,10 +48,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--gray);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--red);
 }
 main {
   padding: 1rem;
@@ -169,7 +180,7 @@ pre {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: var(--lightgray);
 }
 .postlist-date {
   word-spacing: -0.5px;
